@@ -61,7 +61,9 @@ import htcondor
 > If you need to install the python bindings, in your system shell, run
 >
 > ```
-> python3 -m pip install htcondor
+> python3 -m venv virtualenv
+> source virtualenv/bin/activate
+> pip install htcondor
 > ```
 
 To demonstrate that the bindings are loaded, run this command:
